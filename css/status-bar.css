@@ -5,8 +5,8 @@
   opacity: 0.7;
 }
 
-/* status-bar 의 모든 i태그 선택 */
 .status-bar i {
+  /* status-bar 의 모든 i태그 선택 */
   font-size: 14px;
 }
 
