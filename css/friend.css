@@ -1,0 +1,49 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 38%;
+}
+
+.friend__avatar.g-avatar {
+  /* 띄어쓰기를 안하면 둘다 적용된 클래스를 찾겠다는 뜻. 띄어쓰기가 되어있으면 부모-자식인거 찾겠다는 뜻 */
+  width: 70px;
+}
+
+.friend__avatar.m-avatar {
+  /* 띄어쓰기를 안하면 둘다 적용된 클래스를 찾겠다는 뜻. 띄어쓰기가 되어있으면 부모-자식인거 찾겠다는 뜻 */
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
