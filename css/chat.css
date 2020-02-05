@@ -1,5 +1,5 @@
 .chats-body {
-  padding: 0;
+  padding: 10px 0px;
 }
 
 .chats-body .header,
@@ -56,6 +56,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 0px 20px;
   padding-top: 30px;
 }
@@ -76,14 +77,12 @@
 .message {
   display: flex;
   align-items: flex-start;
-  width: 50%;
   margin-bottom: 20px;
 }
 
-.message .message__content {
+/* .message .message__content {
   width: 80%;
-  /* background-color: khaki; */
-}
+} */
 
 .incoming-message {
   align-self: flex-start;
@@ -107,7 +106,7 @@
 }
 
 .incoming-message .message__author {
-  margin-top: 10px;
+  margin-top: 25px;
   display: block;
   font-weight: 600;
   font-size: 12px;
