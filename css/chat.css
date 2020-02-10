@@ -108,7 +108,7 @@
 }
 
 .incoming-message .message__author {
-  margin-top: 25px;
+  margin-top: 10px;
   display: block;
   font-weight: 600;
   font-size: 12px;
