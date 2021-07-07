@@ -105,6 +105,7 @@
   border-radius: 30px;
   color: white;
   font-weight: 600;
+  display: block;
 }
 
 .incoming-message .message__author {
